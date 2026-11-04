@@ -1,0 +1,21 @@
+{
+  "name": "cafeteria-preorder-queue-system",
+  "version": "1.0.0",
+  "description": "Cafeteria Pre-Order and Queue Management System - Full Stack Academic Project",
+  "scripts": {
+    "backend": "cd backend && npm start",
+    "frontend": "cd frontend && npm run dev",
+    "build:frontend": "cd frontend && npm run build"
+  },
+  "keywords": [
+    "cafeteria",
+    "pre-order",
+    "queue-management",
+    "fifo",
+    "socketio",
+    "react",
+    "express"
+  ],
+  "author": "College Academic Project",
+  "license": "ISC"
+}

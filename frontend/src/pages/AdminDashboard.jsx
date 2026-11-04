@@ -353,7 +353,7 @@ export default function AdminDashboard() {
                         className="w-10 h-10 rounded-xl object-cover shrink-0"
                         onError={(e) => {
                           e.target.onerror = null;
-                          e.target.src = 'https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=100&q=80';
+                          e.target.src = '/images/food/item-1.jpg';
                         }}
                       />
                       <div>

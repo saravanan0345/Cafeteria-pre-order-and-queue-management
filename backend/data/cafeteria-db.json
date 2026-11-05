@@ -370,7 +370,7 @@
     }
   ],
   "queue_sequences": {
-    "2026-11-04": 7
+    "2026-11-04": 8
   },
   "orders": [
     {
@@ -711,6 +711,49 @@
       ],
       "ready_at": "2026-11-04T16:27:24.133Z",
       "completed_at": "2026-11-04T16:27:25.778Z"
+    },
+    {
+      "id": 8,
+      "order_number": "ORD-20261104-008",
+      "user_id": 1,
+      "customer_name": "Alex Johnson (Student)",
+      "customer_email": "student@college.edu",
+      "customer_phone": "+1 (555) 234-5678",
+      "pickup_date": "2026-11-04",
+      "pickup_time": "12:30 PM",
+      "total_amount": 9.45,
+      "tax_amount": 0.47,
+      "final_amount": 9.92,
+      "status": "Confirmed",
+      "payment_method": "Campus Card / Wallet",
+      "payment_status": "Paid",
+      "special_instructions": "",
+      "queue_token": "A008",
+      "queue_sequence": 8,
+      "estimated_wait_time": 16,
+      "created_at": "2026-11-04T16:37:06.600Z",
+      "items": [
+        {
+          "id": 18,
+          "order_id": 8,
+          "food_id": 1,
+          "food_name": "Crispy Masala Dosa with Sambar",
+          "price": 4.5,
+          "quantity": 1,
+          "subtotal": 4.5,
+          "image_url": "/images/food/item-1.jpg"
+        },
+        {
+          "id": 19,
+          "order_id": 8,
+          "food_id": 3,
+          "food_name": "Fluffy Stack of Buttermilk Pancakes",
+          "price": 4.95,
+          "quantity": 1,
+          "subtotal": 4.95,
+          "image_url": "/images/food/item-3.jpg"
+        }
+      ]
     }
   ],
   "order_items": [],
@@ -718,7 +761,7 @@
     "users": 3,
     "categories": 6,
     "food_items": 17,
-    "orders": 7,
-    "order_items": 17
+    "orders": 8,
+    "order_items": 19
   }
 }
